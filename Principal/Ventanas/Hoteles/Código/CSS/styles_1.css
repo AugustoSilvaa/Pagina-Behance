@@ -1,0 +1,215 @@
+
+
+
+.header-container{ 
+    display: flex;
+    width: 100%;
+    height: 50spx;
+
+    margin: 0;
+}
+
+/*Propiedas a la imagen principal del header*/
+.icon-travel{
+    margin: 2px 10px ;
+    width: 174px;
+    height: 48px;
+}
+/*Propiedas para el contendero del header (icono + barra nav)*/
+.headet-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin:0;
+}
+/*Propiedas a la ul de la barra nav*/
+ul{
+    display: flex;
+    margin: 10px 25px ;
+}
+ul li{
+    list-style: none;
+    margin: 2px 5px; 
+}
+/*Estilos al texto de la barra nav*/
+.menu{
+    text-decoration: none;
+    /* color: white; */
+    color: rgb(103, 13, 126);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 15px;   
+}
+
+.menu:hover{
+    color:white;
+    background-color:rgb(103, 13, 126) ;
+    width: 50px;
+    height: 100%;
+}
+
+.vuelo{
+    color: rgb(103, 13, 126);
+}
+
+.vuelo:hover{
+    color: rgb(255, 251, 0);
+    
+}
+                                  /* Maquetacion del contenedor de Busqueda de viajes*/
+
+.search-container{ 
+    margin: 0;
+    width: 100%;
+    height: 385px;
+    background-image: url(../../../../Imagenes/Imagnes_V_Vuelos/imagen_principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.search-travel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-image: url(../../../../Imagenes/Imagnes_V_Vuelos/imagen_principal.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+.title1{
+    margin: 5px 20px;
+    font-size: 30px;
+font-family: 'Poppins', sans-serif;
+color: rgb(118, 62, 170);
+}
+
+.title2{
+margin: 15px 20px;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+color: rgb(118, 62, 170);
+}
+
+
+.search-travel-menu{ 
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    background-color: rgb(255, 194, 40);
+    width: 85%;
+    height: 145px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 65px auto;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+box-shadow: 5px 5px 15px -1px #000000;
+}
+
+/* .flight-search{
+    display: flex;
+    position: relative;
+} */
+
+.fa-solid{
+    position:absolute;
+    margin: 24px 5px 0 15px;
+    font-size: 20px;
+    color: rgb(79, 25, 129);
+}
+
+#icon-user{
+    position:absolute;
+    margin: 15px 5px 0 15px;
+    font-size: 20px;
+    color: rgb(79, 25, 129);
+}
+
+.fa-regular{
+    position:absolute;
+    margin: 15px 10px 0 15px;
+    font-size: 20px;
+    color: rgb(79, 25, 129);
+    
+}
+
+
+.input-large{
+    box-sizing: border-box;
+    margin: 13px 5px;
+    width: 100%;
+    height: 37px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-left:40px;
+    padding-top: 8px;
+}
+
+.flight-search-large{
+    box-sizing: border-box;
+    width:42.5%;
+    height: 38px;
+    margin: 5px 15px;
+}
+
+.flight-search-short{
+    box-sizing: border-box;
+    width: 20.5%;
+    height: 38px;
+    margin: 5px 11.5px 5px 12px;
+}
+
+
+.input-large:active{
+    border: 0.5px solid aquamarine;
+}
+.input-short{
+    box-sizing: border-box;
+    margin:5px 3px;
+    width:100%;
+    height: 37px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: transparent;
+    padding-left:40px;
+    padding-top: 8px;
+    border: 0.5px solid white;
+}
+
+.input-short:focus{
+border: 1.8px solid rgb(117, 119, 207) !important;
+}
+
+::placeholder{
+color: blueviolet;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+padding-top: 50dpx;
+}
+.list{ 
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: blueviolet;
+}
+.Search-button{ 
+    position:relative;
+    align-self:center;
+    margin-left:15px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(86, 21, 146);
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: -60px;
+
+}
+
+.Search-button:active{
+    border: 2px solid rgb(228, 208, 228);
+    border-radius: 7px;
+}

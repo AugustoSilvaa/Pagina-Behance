@@ -1,0 +1,381 @@
+                          /*---------*  HOJA DE ESTILOS DE LA VENTA VUELOS *-----------------------*/          
+
+body{
+    margin: 0;
+}
+
+                      /*-------------------- Estilos para el contenedor Header--------------------- */
+
+/*Propiedas para el contenedor Header father*/
+.header-container{ 
+    display: flex;
+    background-image: url(../../../../Imagenes/Imagnes\_V_Vuelos/imagen_principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 0;
+}
+/*Propiedas a la imagen principal del header*/
+.icon-travel{
+    margin: 10px 10px ;
+    width: 181px;
+    height: 56px;
+}
+/*Propiedas para el contenedor que agrupa(icono + barra nav)*/
+.headet-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+/*Propiedas a la ul de la barra nav*/
+ul{
+    display: flex;
+    margin: 10px 25px ;
+}
+ul li{
+    list-style: none;
+    margin: 2px 5px; 
+}
+/*Estilos al texto de la barra nav*/
+.menu{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 15px;   
+}
+/*Animaciones de texto de la barra nav*/
+.menu:hover{
+    color:white;
+}
+/*Propiedades de texto de la Vuelo de la barra nav*/
+.vuelo{
+    color: rgb(233, 219, 31);
+}
+/*Animaciones de texto de la Vuelo de la barra nav*/
+.vuelo:hover{
+    color: rgb(255, 251, 0);
+    
+}
+
+                    /*-------------------- Estilos para el menu de busqueda--------------------- */
+
+/*Prpiedades al contenedor principal (Padre) del menu de busqueda */
+.search-conatiner{ 
+    margin: 0;
+    width: 100%;
+    height: 450px;
+}
+/*Prpiedades al contenedor del menu de busqueda */
+.search-travel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*Prpiedades del texto princial del contendro Padre*/
+.title1{
+    margin: 5px 20px;
+    font-size: 30px;
+font-family: 'Poppins', sans-serif;
+color: rgb(118, 62, 170);
+}
+/*Prpiedades del texto Secundarip del contendro Padre*/
+.title2{
+margin: 15px 20px;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+color: rgb(118, 62, 170);
+}
+/*Prpiedades del contendor de Busqueda*/
+.search-travel-menu{ 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 194, 40);
+    width: 85%;
+    height: 145px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 25px auto;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+box-shadow: 5px 5px 15px -1px #000000;
+}
+/*Prpiedades para los icones de los campos inputs*/
+.fa-solid{
+    position:absolute;
+    margin: 24px 5px 0 15px;
+    font-size: 20px;
+    color: rgb(79, 25, 129);
+}
+/*Prpiedades para los icones de los campos inputs*/
+/*se agrego id a los icon de los campos superiores para posicionarlos de forma individual*/
+#icon-user{
+    position:absolute;
+    margin: 15px 5px 0 15px;
+    font-size: 20px;
+    color: rgb(79, 25, 129);
+}
+/*Prpiedades para los icones de los campos inputs*/
+.fa-regular{
+    position:absolute;
+    margin: 15px 10px 0 15px;
+    font-size: 20px;
+    color: rgb(79, 25, 129);
+    
+}
+/*Prpiedades de los campos inputs largos*/
+.input-large{
+    box-sizing: border-box;
+    margin: 13px 5px;
+    width: 100%;
+    height: 37px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-left:40px;
+    padding-top: 8px;
+}
+/*Prpiedades del contenedor que contiene los campos inputs largos y iconos*/
+.flight-search-large{
+    box-sizing: border-box;
+    width:42.5%;
+    height: 38px;
+    margin: 5px 15px;
+}
+/*Prpiedades del contenedor que contiene los campos inputs cortos y iconos*/
+.flight-search-short{
+    box-sizing: border-box;
+    width: 20.5%;
+    height: 38px;
+    margin: 5px 11.5px 5px 12px;
+}
+/*Prpiedades de animacion de los campos inputs largos*/
+.input-large:active{
+    border: 0.5px solid aquamarine;
+}
+/*Prpiedades de los campos inputs cortos*/
+.input-short{
+    box-sizing: border-box;
+    margin:5px 3px;
+    width:100%;
+    height: 37px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: transparent;
+    padding-left:40px;
+    padding-top: 8px;
+    border: 0.5px solid white;
+}
+/*Prpiedades de animacion de los campos inputs cortos*/
+.input-short:focus{
+border: 1.8px solid rgb(117, 119, 207) !important;
+}
+/*Propiedes del texto de fondo del Placeholder de los campos inputs*/
+::placeholder{
+color: blueviolet;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+padding-top: 50dpx;
+}
+/*Propiedas a la equite Optogroup para personalizar texto de lista desplegable de inputs cortos*/
+.list{ 
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: blueviolet;
+}
+/*Propiedades para el boton de busqueda del contendor de menu de busqueda*/
+.Search-button{ 
+    position:relative;
+    align-self:center;
+    margin-left:15px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(86, 21, 146);
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: -60px;
+}
+/*Propiedades para animacion del boton de busqueda del contendor de menu de busqueda*/
+.Search-button:active{
+    border: 2px solid rgb(228, 208, 228);
+    border-radius: 7px;
+}
+
+                        /*----------- Maquetacion de galeria de imagenes ---------------*/
+
+/*Contenedor principal del bloque galerias*/
+.gallery-container{
+    /* margin: 10px 15px; */
+    width: 100%;
+    height: 410px;
+    margin-top: 10px 5px 5px 20px;
+}
+/* Prpiedades al Contendeor de las imagenes (Galeria) */
+.gallery-card{
+    display: flex;
+    justify-content: space-around;
+    height: 315px;
+    margin: 10px 10px;
+}
+/*Propiedades al texto principal del contenedor de pie de imagen de cada imagen de la galeria*/
+.text-gallery1{
+margin: 30px 20px;
+font-size: 30px;
+font-family: 'Poppins', sans-serif;
+color: rgb(118, 62, 170);
+}
+/*Propiedades al texto secuandario del contenedor de pie de imagen de cada imagen de la galeria*/
+.text-gallery2{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 235, 58);
+    margin: 15px 20px 25px 20px;
+    }
+/*`Propiedas del contenedor que agrupa card (imagen y contenedor de texto)*/
+.card{
+    width: 235px;
+    height: 290px;
+    margin: 5px 0;
+}
+/*Animaciones del contenedor que agrupa card (imagen y contenedor de texto)*/
+.card:hover{
+    border-radius: 11px;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+    box-shadow: 5px 5px 15px -1px #000000;
+    }
+/*Propiedades de las imagagenes de las card*/
+.card-img{
+    width: 235px;
+    height: 245px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0;
+}
+/*contenedor de informacion de de las card*/
+.card-information{
+    position: relative;
+    width: 235px;
+    height: 65px;
+    margin: -30px 0 0 0;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+    z-index: 20;
+}
+/*Propiedades de texto principal del contenedor de informacion de de las card*/
+.card-title{
+    padding: 10px 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(118, 62, 170);
+    font-weight: bold;
+    font-size:16px;
+    margin: 5px 5px;
+}
+/*Propiedades de texto secuandario del contenedor de informacion de de las card*/
+.card-text{
+    padding: 10px 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(118, 62, 170);
+    font-size: 13.5px;
+    margin: -8px 5px 5px 5px ;
+}
+
+        /*-------------------- Maquetacion de contenedor informacion de ofertas de vuelos-------------*/
+
+/*Propiedades del contenedor father */
+.information-container{
+    width: 100%;
+    height: 250px;
+    margin: 30px 5px 10px 5px;
+}
+/*Propiedades del titulo principal del contendor*/
+.title-fly{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(118, 62, 170);
+    font-size: 30px;
+    margin-top: 50px auto;
+}
+/* Propiedades del contendero que contiene ( los dos contenedores de informacion de vuelos)*/
+.about-fly{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+/*Propeiedades del contenedor que contiene los texto de informacion de vuelos*/
+.information-fly{
+    width: 40%;
+    margin: 10px 30px;
+}
+/*Propiedades del texto 1 del contenedor fe informacion de vuelos*/
+.text-info1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 230, 0);
+    font-size: 18px;
+}
+/*Propiedades del texto 2 del contenedor fe informacion de vuelos*/
+.text-info2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+                /*----------- Estilos para pie de  pagina--------------*/
+
+/*Propiedades del contenedor Father del pie de pagina*/
+.footer-container{
+    position:absolute;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    justify-content: space-around;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+/*Propiedades del contenedor que contiene los iconos de redes sociales*/
+.social-network{
+    position: relative;
+    margin-top: 30px;
+}
+/*Propiedades de los iconos de redes sociales*/
+.icon-snetwork{
+    width: 47px;
+    height: 50px;
+    margin: 5px 2px;
+}
+/*Animaciones de los iconos de redes sociales*/
+a .icon-snetwork:hover{
+    width: 55px;
+    height: 58px;
+    border-radius: 50%;
+    border: 0.7px solid rgb(179, 179, 179);
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+    box-shadow: 5px 5px 15px -1px #000000;
+    padding: 0 auto;
+}
+/*Propiedades del contenedor de informacion de la empresa*/
+.company{
+    line-height: 12px;
+    margin-right: 40px;
+}
+/*Propiedades del contenedor de informacion de contacto de la empresa*/
+.contact-information{
+    position: relative;
+    display: flex;
+    margin-left: 285px;
+}
+/*Propiedades del texto principal del contendor de infromacion de la empresa y inf de contacto*/
+.principal-text{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(72, 28, 112);
+    font-weight: bold;  
+}
+/*Propiedades del texto secuandario del contendor de infromacion de la empresa y inf de contacto*/
+.second-text{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(72, 28, 112);
+}
+
