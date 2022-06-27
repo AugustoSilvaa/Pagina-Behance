@@ -57,25 +57,24 @@ ul li{
     color:white;
     background-color:rgb(103, 13, 126) ;
 }
-
 .vuelo{
     color: rgb(103, 13, 126);
 }
-
 .vuelo:hover{
     color:white;
     background-color:rgb(103, 13, 126) ;  
 }
-                                  /* Maquetacion del contenedor de Busqueda de viajes*/
+   
+                         /* Maquetacion del contenedor de Busqueda de viajes*/
 
 .search-container{ 
-    margin: 0;
+    margin: 5px 0px;
     width: 100%;
-    height: 385px;
-    background-image: url(../../../../Imagenes/Imagnes_V_Vuelos/imagen_principal.png);
+    height: 650px;
+    padding-top: 20px;
+    background-image: url(../../../../Imagenes/Imagenes_V_Paquetes/Group22.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20px;
 }
 
 
@@ -88,28 +87,39 @@ ul li{
 .title1{
     display: flex;
     position: relative;
-    margin: 0px 30px;
-    font-size: 30px;
+    margin: 0px 30px 0px 95px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
     color: rgb(118, 62, 170);
 }
 
+.title11{
+    display: flex;
+    position: relative;
+    margin: 40px 30px 0px 95px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 194, 40);
+}
+
+
 .title2{
 margin: 15px 20px;
-font-size: 18px;
+font-size: 20px;
 font-family: 'Poppins', sans-serif;
 color: rgb(118, 62, 170);
 }
 
 .search-travel-menu{ 
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     background-color: rgb(255, 194, 40);
     width: 85%;
-    height: 145px;
+    height: 90px;
     border-radius: 10px;
     padding: 15px 15px;
-    margin: 65px auto;
+    margin: 40px auto;
     -webkit-box-shadow: 5px 5px 15px -1px #000000; 
 box-shadow: 5px 5px 15px -1px #000000;
 }
@@ -121,7 +131,7 @@ box-shadow: 5px 5px 15px -1px #000000;
     color: rgb(79, 25, 129);
 }
 
-#icon-user{
+.fa-car{
     position:absolute;
     margin: 15px 5px 0 15px;
     font-size: 20px;
@@ -136,32 +146,6 @@ box-shadow: 5px 5px 15px -1px #000000;
     
 }
 
-.superior-icon{
-     position:absolute;
-    margin: 21px 10px 0 15px;
-    font-size: 20px;
-    color: rgb(79, 25, 129);  
-}
-
-
-.input-large{
-    box-sizing: border-box;
-    margin: 13px 5px;
-    width: 100%;
-    height: 37px;
-    border-radius: 5px;
-    border-color: transparent;
-    padding-left:40px;
-    padding-top: 8px;
-}
-
-.flight-search-large{
-    box-sizing: border-box;
-    width:42.5%;
-    height: 38px;
-    margin: 5px 15px;
-}
-
 .flight-search-short{
     box-sizing: border-box;
     width: 20.5%;
@@ -169,10 +153,6 @@ box-shadow: 5px 5px 15px -1px #000000;
     margin: 5px 11.5px 5px 12px;
 }
 
-
-.input-large:focus{
-  outline: 2px solid rgb(172, 70, 172);
-}
 .input-short{
     box-sizing: border-box;
     margin:5px 3px;
@@ -195,15 +175,17 @@ box-shadow: 5px 5px 15px -1px #000000;
 }
 
 ::placeholder{
-color: blueviolet;
+color: rgb(102, 102, 102);
 font-family: 'Poppins', sans-serif;
 font-size: 17px;
-padding-top: 50dpx;
+padding-top:50px;
 }
+
 .list{ 
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    color: blueviolet;
+    color: rgb(61, 18, 102);
+    font-size: 15px;
 }
 .Search-button{ 
     position:relative;
@@ -215,63 +197,78 @@ padding-top: 50dpx;
     color: white;
     border-radius: 5px;
     border: transparent;
-    margin-top: -60px;
-
+    margin-top: 1px;
 }
-
 .Search-button:active{
-    border: 2px solid rgb(228, 208, 228);
+    border: 2.8px solid rgb(221, 219, 221);
     border-radius: 7px;
 }
 
- /*----------- Maquetacion de galeria de imagenes ---------------*/
+/*Estilos para contenedor de marcas de carro*/
+
+.car-mark{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(252, 252, 252);
+    width: 85%;
+    height: 180px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 65px auto;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+box-shadow: 5px 5px 15px -1px #000000;
+}
+
+                        /*----------- Maquetacion de galeria de imagenes ---------------*/
 
 /*Contenedor principal del bloque galerias*/
 .gallery-container{
-    /* margin: 10px 15px; */
+    box-sizing: border-box;
     width: 100%;
-    height: 800px;
-    margin-top: 10px 5px 5px 20px;
+    height: 936px;
+    margin-top: 10px 10px 0px 10px;
+    background-image: url(../../../../Imagenes/Imagenes_V_Paquetes/Group10.svg);
+    box-sizing: border-box;
 }
 /* Prpiedades al Contendeor de las imagenes (Galeria) */
 .gallery-card{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 85%;
-    height: 700px;
-    margin: 10px auto 30px auto;  
+    height: 380px;
+    margin: 20x 0px 30px 0px;
+    padding: 15px 65px;
 }
 /*Propiedades al texto principal del contenedor de pie de imagen de cada imagen de la galeria*/
 .text-gallery1{
-margin: 30px 20px;
-font-size: 30px;
+margin: 20px 10px 5px 127px;
+font-size: 25px;
 font-family: 'Poppins', sans-serif;
 color: rgb(118, 62, 170);
 }
 /*Propiedades al texto secuandario del contenedor de pie de imagen de cada imagen de la galeria*/
 .text-gallery2{
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 235, 58);
-    margin: 15px 20px 25px 20px;
+    color: rgb(243, 222, 29);
+    margin: 15px 20px 25px 135px;
     }
 /*`Propiedas del contenedor que agrupa card (imagen y contenedor de texto)*/
 .card{
-    width: 260px;
-    height: 290px;
+    width: 250px;
+    height: 335px;
     margin: 5px 0;
 }
 /*Animaciones del contenedor que agrupa card (imagen y contenedor de texto)*/
 .card:hover{
-    border-radius: 11px;
+    border-radius: 14px;
     -webkit-box-shadow: 5px 5px 15px -1px #000000; 
     box-shadow: 5px 5px 15px -1px #000000;
     }
 /*Propiedades de las imagagenes de las card*/
 .card-img{
     width: 260px;
-    height: 245px;
+    height: 295px;
     object-fit: cover;
     border-radius: 8px;
     margin: 0;
@@ -280,7 +277,7 @@ color: rgb(118, 62, 170);
 .card-information{
     position: relative;
     width: 260px;
-    height: 100px;
+    height: 70px;
     margin: -30px 0 0 0;
     background-color: rgb(236, 236, 236);
     border-radius: 8px;
@@ -290,84 +287,44 @@ color: rgb(118, 62, 170);
 .card-title{
     padding: 10px 12px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(206, 193, 17);
-    font-weight: bold;
+    color: rgb(118, 62, 170);
     font-size:16px;
     margin: 5px 5px;
 }
 /*Propiedades de texto secuandario del contenedor de informacion de de las card*/
 .card-text{
-    padding: 10px 3px;
-    font-family: 'Poppins', sans-serif;
-    color: rgba(8, 3, 12, 0.884);
-    font-size: 13px;
-    margin: -18px 5px 5px 5px ;
-}
-
-      /*-------------------- Maquetacion de contenedor informacion de ofertas de vuelos-------------*/
-
-/*Propiedades del contenedor father */
-.information-container{
-    width: 100%;
-    height: 250px;
-    margin: 30px 5px 10px 5px;
-}
-/*Propiedades del titulo principal del contendor*/
-.title-fly{
-    display: flex;
-    justify-content: center;
+    padding: 10px 12px;
     font-family: 'Poppins', sans-serif;
     color: rgb(118, 62, 170);
-    font-size: 30px;
-    margin-top: 50px auto;
+    font-size: 15px;
+    margin: -8px 5px 5px 5px ;
+    font-weight: bold;
 }
-/* Propiedades del contendero que contiene ( los dos contenedores de informacion de vuelos)*/
-.about-fly{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 15px;
-}
-/*Propeiedades del contenedor que contiene los texto de informacion de vuelos*/
-.information-fly{
-    width: 40%;
-    margin: 10px 30px;
-}
-/*Propiedades del texto 1 del contenedor fe informacion de vuelos*/
-.text-info1{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(255, 230, 0);
-    font-size: 18px;
-}
-/*Propiedades del texto 2 del contenedor fe informacion de vuelos*/
-.text-info2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-}
-
                 /*----------- Estilos para pie de  pagina--------------*/
 
 /*Propiedades del contenedor Father del pie de pagina*/
 .footer-container{
-    position:absolute;
     display: flex;
     width: 100%;
-    height: 180px;
-    justify-content: space-around;
-    /* padding: 10px 30px; */
-    margin-top: 15px;
-}
+    height: 120px;
+    justify-content: center;
+    border: 1.5px solid lightgray;
+  /* background-image: linear-gradient(to top, #7b449b 0%, #583469 49%, #80197a 100%); */
+  /* background-color: rgb(83, 19, 112); */
+  }
 /*Propiedades del contenedor que contiene los iconos de redes sociales*/
 .social-network{
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 300px;
     height: 100%;
-    position: relative;
-    padding-left: 150px;
 }
 /*Propiedades de los iconos de redes sociales*/
 .icon-snetwork{
     width: 47px;
     height: 50px;
-    margin: 25px 3px 0px 5px;
+    margin: 40px 3px 0px 5px;
+    border-radius: 7px;
 }
 /*Animaciones de los iconos de redes sociales*/
 a .icon-snetwork:hover{
@@ -378,36 +335,4 @@ a .icon-snetwork:hover{
     -webkit-box-shadow: 5px 5px 15px -1px #000000; 
     box-shadow: 5px 5px 15px -1px #000000;
     padding: 0 auto;
-}
-/*Propiedades del contenedor de informacion de la empresa*/
-.company{
-    line-height: 12px;
-    margin: 10px 15px 10px 40px;
-    width: 190px;
-    padding-left: 25px;
-}
-/*Propiedades del contenedor de informacion de contacto*/
-.contact{
-    line-height: 12px;
-    margin: 10px 15px 10px 15px;
-    width: 190px;
-    padding-left: 25px;
-}
-/*Propiedades del contenedor de informacion de contacto de la empresa*/
-.contact-information{
-    display: flex;
-    margin-left: 285px;
-    background-color: yellow;
-    width: 100%;
-}
-/*Propiedades del texto principal del contendor de infromacion de la empresa y inf de contacto*/
-.principal-text{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(72, 28, 112);
-    font-weight: bold;  
-}
-/*Propiedades del texto secuandario del contendor de infromacion de la empresa y inf de contacto*/
-.second-text{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(72, 28, 112);
-}
+    }

@@ -153,8 +153,8 @@ box-shadow: 5px 5px 15px -1px #000000;
     margin: 5px 11.5px 5px 12px;
 }
 /*Prpiedades de animacion de los campos inputs largos*/
-.input-large:active{
-    border: 0.5px solid aquamarine;
+.input-large:focus{
+    outline: 2px solid rgb(172, 70, 172);;
 }
 /*Prpiedades de los campos inputs cortos*/
 .input-short{
@@ -171,7 +171,7 @@ box-shadow: 5px 5px 15px -1px #000000;
 }
 /*Prpiedades de animacion de los campos inputs cortos*/
 .input-short:focus{
-border: 1.8px solid rgb(117, 119, 207) !important;
+ outline: 2px solid rgb(172, 70, 172);
 }
 /*Propiedes del texto de fondo del Placeholder de los campos inputs*/
 ::placeholder{
@@ -237,19 +237,19 @@ color: rgb(118, 62, 170);
     }
 /*`Propiedas del contenedor que agrupa card (imagen y contenedor de texto)*/
 .card{
-    width: 235px;
+    width: 250px;
     height: 290px;
     margin: 5px 0;
 }
 /*Animaciones del contenedor que agrupa card (imagen y contenedor de texto)*/
 .card:hover{
-    border-radius: 11px;
+    border-radius: 14px;
     -webkit-box-shadow: 5px 5px 15px -1px #000000; 
     box-shadow: 5px 5px 15px -1px #000000;
     }
 /*Propiedades de las imagagenes de las card*/
 .card-img{
-    width: 235px;
+    width: 260px;
     height: 245px;
     object-fit: cover;
     border-radius: 8px;
@@ -258,8 +258,8 @@ color: rgb(118, 62, 170);
 /*contenedor de informacion de de las card*/
 .card-information{
     position: relative;
-    width: 235px;
-    height: 65px;
+    width: 260px;
+    height: 70px;
     margin: -30px 0 0 0;
     background-color: rgb(236, 236, 236);
     border-radius: 8px;
@@ -315,7 +315,7 @@ color: rgb(118, 62, 170);
 .text-info1{
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 230, 0);
-    font-size: 18px;
+    font-size: 19px;
 }
 /*Propiedades del texto 2 del contenedor fe informacion de vuelos*/
 .text-info2{
