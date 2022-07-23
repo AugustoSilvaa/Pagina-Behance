@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.search-container{ 
+    margin: 0px;
+    width: 100%;
+    height: 610px;
+    background-image: url(../../../../images/img-w-packages/Group72.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.title2{
+margin: 100px 10px 0px 205px;
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 194, 40);
+}
+
+.campament1{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 250px;
+    margin: 25px auto;
+}
+
+.text-container{
+    margin: 5px 5px 0 10px;
+}
+
+.campament-information{
+    width: 430px;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px 10px 15px;
+    margin: 45px 0px 0px 5px;
+    border: 1px solid rgb(194, 194, 194);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    line-height: 33px;
+}
+
+
+.canaima-img{
+    width: 650px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 15px 5px 0px 15px;
+}
+
+.canaima-img:hover{
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+    box-shadow: 5px 5px 15px -1px #000000;
+    transition-duration: 1s;
+    }
+
+.title3{
+position: relative;
+width: 450px;
+margin: 45px 0px 0px 0px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 255, 255);
+}
+
+
+.canaima-container{ 
+    margin: 0;
+    width: 100%;
+    height: 450px;
+    background-image: url(../../../../images/img-w-packages/Group2_VP.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.title2-1{
+margin: 25px 10px 0px 140px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 194, 40);
+}
+
+.title2-2{
+    position: relative;
+margin: 30px 10px 0px 140px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+color: rgb(255, 194, 40);
+width: 250px;
+}
+
+.campament12{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 85px 10px;
+    width: 100%;
+}
+
+
+.canaima-container2{ 
+    box-sizing: border-box;
+    width: 100%;
+    height: 628.28px;
+    background-image: url(../../../../images/img-w-packages/TurkeyGroup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+                
